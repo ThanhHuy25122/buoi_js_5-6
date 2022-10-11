@@ -1,0 +1,41 @@
+div.form {
+  display: inline-flex;
+  height: 150px;
+  align-items: center;
+  flex-direction: row;
+  gap: 15px;
+}
+
+div.form label {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+div.form label:hover {
+  cursor: pointer;
+}
+
+div.form p {
+  font-size: 1.5rem;
+}
+
+input[type="button"],
+input[type="text"] {
+  display: block;
+  font-size: 1rem;
+  padding: 15px 30px;
+  margin: auto;
+  border-radius: 15px;
+}
+
+input[type="button"] {
+  background-color: green;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  box-shadow: 1px 1px 5px #000;
+}
